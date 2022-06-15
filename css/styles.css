@@ -457,6 +457,9 @@ img {
   margin-right: 70px;
 }
 /* .join */
+.join {
+  margin-right: auto;
+}
 .join .title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -474,6 +477,85 @@ img {
 .join .social-link:focus {
   background-color: var(--accent-color);
 }
+
+/* .subscribe {
+} */
+
+.subscripe-title {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  font-size: 14px;
+
+  margin-bottom: 20px;
+}
+
+.subscripe-input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding: 15px 16px;
+
+  font-size: 16px;
+  line-height: 1.25;
+
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+
+  transition: border-color 250ms var(--primary-cubic);
+}
+
+.form-field:focus-within .subscripe-input {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.subscripe-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscripe-button {
+  min-width: 200px;
+  height: 50px;
+  font-weight: 700;
+
+  line-height: 1.875;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  transition: background-color 250ms var(--primary-cubic);
+}
+
+.subscripe-button:hover,
+.subscripe-button:focus {
+  background-color: #188ce8;
+}
+
+.subscripe-button::after {
+  content: "";
+  margin-left: 10px;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icon-send.svg);
+}
+
 /* portfolio */
 /* button filter */
 
